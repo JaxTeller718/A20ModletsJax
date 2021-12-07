@@ -7,6 +7,10 @@
 
 	<!-- Addition -->
 	<append xpath="/spawning/biome[@name='pine_forest']">
+	
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesAll" tags="wilderness"/>
+		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesNight" tags="wilderness"/>
+		
 		<spawn maxcount="3" respawndelay="2.9" time="Day" entitygroup="ZombiesAll" notags="commercial,industrial,downtown" />
 		<spawn maxcount="3" respawndelay="3.3" time="Night" entitygroup="ZombiesNight" notags="commercial,industrial,downtown" />
 
@@ -30,6 +34,10 @@
 
 	<!-- Addition -->
 	<append xpath="/spawning/biome[@name='desert']">
+	
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesAll" tags="wilderness"/>
+		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesNight" tags="wilderness"/>
+		
 		<spawn maxcount="3" respawndelay="2.7" time="Any" entitygroup="ZombiesAll" notags="commercial,industrial,downtown" />
 		<spawn maxcount="3" respawndelay="2.1" time="Night" entitygroup="ZombiesNight" notags="commercial,industrial,downtown" />
 		
@@ -53,6 +61,10 @@
 
 	<!-- Addition -->
 	<append xpath="/spawning/biome[@name='wasteland']">
+	
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesWasteland" tags="wilderness"/>
+		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesNight" tags="wilderness"/>
+		
 		<spawn maxcount="3" respawndelay="0.3" time="Day"	entitygroup="ZombiesWasteland" notags="commercial,industrial,downtown" />
 		<spawn maxcount="4" respawndelay="0.001" time="Night" entitygroup="ZombiesWastelandNight" notags="commercial,industrial,downtown" />
 
@@ -76,6 +88,10 @@
 
 	<!-- Addition -->
 	<append xpath="/spawning/biome[@name='burnt_forest']">
+	
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="ZombiesBurntForest" tags="wilderness"/>
+		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesNight" tags="wilderness"/>
+		
 		<spawn maxcount="3" respawndelay="2.8" time="Day" entitygroup="ZombiesBurntForest" />
 		<spawn maxcount="3" respawndelay="3.2" time="Night" entitygroup="ZombiesNight" />
 
@@ -100,6 +116,10 @@
 
 	<!-- Addition -->
 	<append xpath="/spawning/biome[@name='snow']">
+	
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="SnowZombies" tags="wilderness"/>
+		<spawn maxcount="1" respawndelay="1" time="Night" entitygroup="ZombiesNight" tags="wilderness"/>
+		
 		<spawn maxcount="3" respawndelay="2.6" time="Any" entitygroup="SnowZombies" notags="downtown" />
 		<spawn maxcount="3" respawndelay="1.7" time="Night" entitygroup="ZombiesNight" notags="commercial,industrial,downtown" />
 
