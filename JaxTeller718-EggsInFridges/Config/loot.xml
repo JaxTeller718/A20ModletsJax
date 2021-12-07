@@ -1,0 +1,15 @@
+<JaxTeller718>
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+
+<lootgroup name="groupColdFridge">
+	<item name="foodEgg"/>
+</lootgroup>
+
+	</insertBefore>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupRefrigerator01']">
+		<item group="groupColdFridge" loot_prob_template="low"/>
+	</append>
+
+</JaxTeller718>

@@ -1,0 +1,7 @@
+<JaxTeller718>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupGrills']">
+		<item name="resourceCharcoalJT" count="2,5" loot_prob_template="med"/>
+	</append>
+
+</JaxTeller718>
