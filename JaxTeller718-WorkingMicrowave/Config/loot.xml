@@ -1,0 +1,9 @@
+<JaxTeller718>
+
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodTrash']">
+		<item name="drinkBowlEmptyJT" count="1,2" loot_prob_template="med"/>
+	</append>
+
+
+</JaxTeller718>

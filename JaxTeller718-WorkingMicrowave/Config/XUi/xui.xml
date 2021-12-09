@@ -1,0 +1,12 @@
+<JaxTeller718>
+
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_chemistryStation']" >
+		<window_group name="workstation_workingMicrowaveJT" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	</insertAfter> 
+</JaxTeller718>
