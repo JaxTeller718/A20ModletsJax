@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<remove xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/triggered_effect[@trigger='onSelfBuffStart' and @action='RemoveAllNegativeBuffs']"/>
+	<!-- <remove xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/triggered_effect[@trigger='onSelfBuffStart' and @buff='buffLegSprained']"/> -->
+	<setattribute xpath="/buffs/buff[@name='buffLegSprained']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffLegBroken']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmSprained']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffArmBroken']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInjuryConcussion']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysenteryAddCure']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfectionAddCure']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection01GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection02GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffInfection03GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysentery01GetBetter']" name="remove_on_death">false</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffDysentery01GetBetterDiarrhea']" name="remove_on_death">false</setattribute>
+	<set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@trigger='onSelfEnteredGame' and @action='ModifyCVar' and @cvar='$infectionMaxDuration']/@value">18000</set>
+	<setattribute xpath="/buffs/buff[@name='buffInfectionMain']" name="remove_on_death">false</setattribute>
+	<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@trigger='onSelfBuffStart' and @action='AddBuff' and @buff='buffNewbieCoat']"/>
+	<remove xpath="/buffs/buff[@name='buffInfection04']"/>
+	<insertAfter xpath="/buffs/buff[@name='buffInfection03GetBetter']">
+		<buff name="buffInfection04" tooltip_key="buffInfection04Tooltip" icon="ui_game_symbol_infection" icon_color="255,0,0">
+			<damage_type value="Infection"/>
+			<stack_type value="ignore"/>
+			<duration value=".1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyCVar" cvar="infectionCounter" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfection01Main"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfectionMain"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfectionCatch"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInfection04"/>
+			</effect_group>
+		</buff>
+	</insertAfter>
+	
+</configs>

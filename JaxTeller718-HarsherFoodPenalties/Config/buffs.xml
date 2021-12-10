@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+	
+	<set xpath="/buffs/buff[@name='buffStatusHungry01']/effect_group/requirement[@name='StatComparePercCurrentToMax']/@value">.62</set>
+	<set xpath="/buffs/buff[@name='buffStatusHungry02']//triggered_effect/requirement[@name='StatComparePercCurrentToMax']/@value">.32</set>
+	<insertAfter xpath="/buffs/buff[@name='buffStatusHungry02']//passive_effect[@name='BuffBlink']">
+		<passive_effect name="StaminaChangeOT" operation="perc_subtract" value=".1"/>
+		<passive_effect name="Mobility" operation="base_add" value="-.1"/>
+	</insertAfter>
+	<set xpath="/buffs/buff[@name='buffStatusHungry03']//passive_effect[@name='StaminaChangeOT']/@value">.2</set>
+	<insertAfter xpath="/buffs/buff[@name='buffStatusHungry03']//passive_effect[@name='StaminaChangeOT']">
+		<passive_effect name="Mobility" operation="base_add" value="-.2"/>
+		<passive_effect name="AttributeLevel" operation="base_subtract" value="1"/>
+	</insertAfter>
+	<set xpath="/buffs/buff[@name='buffStatusHungry03']//requirement[@name='StatComparePercCurrentToMax']/@value">.12</set>
+	<set xpath="/buffs/buff[@name='buffStatusThirsty01']//requirement[@name='StatComparePercCurrentToMax']/@value">.62</set>
+	<set xpath="/buffs/buff[@name='buffStatusThirsty02']//requirement[@name='StatComparePercCurrentToMax']/@value">.32</set>
+	<set xpath="/buffs/buff[@name='buffStatusThirsty03']//requirement[@name='StatComparePercCurrentToMax']/@value">.12</set>
+	<set xpath="/buffs/buff[@name='buffDrunkGrandpasAwesomeSauce']//passive_effect[@name='BarteringBuying']/@value">.1</set>
+	<set xpath="/buffs/buff[@name='buffDrunkGrandpasAwesomeSauce']//passive_effect[@name='BarteringSelling']/@value">.1</set>
+	<set xpath="/buffs/buff[@name='buffDrugSugarButts']//passive_effect[@name='BarteringBuying']/@value">.05</set>
+	<set xpath="/buffs/buff[@name='buffDrugSugarButts']//passive_effect[@name='BarteringSelling']/@value">.05</set>
+</configs>

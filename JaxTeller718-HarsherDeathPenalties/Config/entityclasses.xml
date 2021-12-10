@@ -1,0 +1,12 @@
+<configs>
+	<!-- The value below changes the deficit percentage of a level you acquire when you die. Game default is .25 (25%) -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitPerDeathPercentage'][@value='.25']/@value">.25</set>
+	<!-- This value is the maximum amount a player's deficit can be. By default it's .5, meaning a player can't go in "debt" for more than half a level's worth. -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitMaxPercentage'][@value='.5']/@value">1</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/triggered_effect[@trigger='onSelfRespawn' and @buff='buffStatusCheck01,buffStatusCheck02,buffPerkAbilityUpdate,buffNearDeathTraumaTrigger,buffDeathFoodDrinkAdjust']">
+		<triggered_effect trigger="onSelfRespawn" action="ModifyStats" stat="Food" operation="set" value="50"/>
+		<triggered_effect trigger="onSelfRespawn" action="ModifyStats" stat="Water" operation="set" value="50"/>
+	</insertAfter>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/triggered_effect[@trigger='onSelfRespawn' and @buff='buffStatusCheck01,buffStatusCheck02,buffPerkAbilityUpdate,buffNearDeathTraumaTrigger,buffDeathFoodDrinkAdjust']/@buff">buffStatusCheck01,buffStatusCheck02,buffPerkAbilityUpdate</set>
+
+</configs>

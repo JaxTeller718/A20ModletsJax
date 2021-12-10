@@ -1,0 +1,52 @@
+<JaxTeller718>
+	<append xpath="/items">
+		<item name="fiberCutterJT">
+			<property name="Tags" value="knife,melee,light,weapon,meleeWeapon"/>
+			<property name="DisplayType" value="meleeKnife"/>
+			<property name="HoldType" value="47"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/machetePrefab.prefab"/>
+			<property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
+			<property name="CustomIconTint" value="68,170,0"/>
+			<property name="TintColor" value="68,170,0"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceForgedIron"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="Weight" value="50"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+			<property name="RepairExpMultiplier" value="5"/>
+			<property name="ShowQuality" value="true"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Damage_type" value="Slashing"/>
+				<property name="Sphere" value="0.2"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ActionExp" value="0"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Damage_type" value="Slashing"/>
+				<property name="Sphere" value="0.2"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="MaxRange" operation="base_set" value="10"/>
+				<passive_effect name="BlockRange" operation="base_set" value="20"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="0,0"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="0,0"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="900"/>
+				<!-- This determins the swing speed. Default is 300 AttacksPerMinute or 5 swings/sec. -->
+				<passive_effect name="StaminaLoss" operation="base_set" value="0.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="300,1000" tier="1,6"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+			</effect_group>
+		</item>
+	</append>
+</JaxTeller718>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-HarsherDeathPenalties"/>
+		<Description value="Makes death more harsh by keeping all buffs on death and respawning at 50 percent Food and Water."/>
+		<Author value="JaxTeller718" />
+		<Version value="A20" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>

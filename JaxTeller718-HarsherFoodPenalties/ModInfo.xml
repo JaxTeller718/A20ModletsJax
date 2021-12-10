@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-HarsherFoodPenalties"/>
+		<Description value="Adds harsher buffs for being hungry and thirsty by slowing down mobility. Also lowers th bonus slightly for bartering via grandpas elixirs."/>
+		<Author value="JaxTeller718" />
+		<Version value="A20" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>
