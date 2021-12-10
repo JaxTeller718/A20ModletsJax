@@ -1,0 +1,9 @@
+<JaxTeller718>
+	<set xpath="/blocks/block[@name='officeChair01']/property[@name='CanPickup']/@value">false</set>
+	<set xpath="/blocks/block[@name='woodChair1']/property[@name='CanPickup']/@value">false</set>
+	<set xpath="/blocks/block[@name='oldChair1']/property[@name='CanPickup']/@value">false</set>
+	<set xpath="/blocks/block[@name='barracksChair']/property[@name='CanPickup']/@value">false</set>
+	<set xpath="/blocks/block[@name='treePlant02']/property[@name='CanPickup']/@value">false</set>
+
+
+</JaxTeller718>

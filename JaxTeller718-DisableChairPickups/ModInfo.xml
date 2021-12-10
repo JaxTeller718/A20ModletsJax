@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-DisableChairPickups" />
+		<Description value="Removes the ability to pick up poi items like chairs" />
+		<Author value="JaxTeller718" />
+		<Version value="A20" />
+		<Website value="https://community.7daystodie.com/topic/17612-scavengers-of-the-living-dead/" />
+	</ModInfo>
+</xml>
