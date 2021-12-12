@@ -1,0 +1,9 @@
+﻿Key,Source,Context,English
+survivalNutsJT,items,Food,Nuts,,,,,
+survivalNutsJTDesc,items,Food,"Nuts provide much needed nutrition. Keep a bunch of these on you for emergencies. Eating a handful may provide an extra boost.",,,,,
+survivalBerriesJT,items,Food,Berries,,,,,
+survivalBerriesJTDesc,items,Food,"Safe to eat and can provide a boost to your energy. Eating a handful may provide an extra boost.",,,,,
+handfulOfNutsJT,items,Food,Handful of Nuts,,,,,
+handfulOfNutsJTDesc,items,Food,"This handful of nuts will provide the boost you are looking for out there.",,,,,
+handfulOfBerriesJT,items,Food,Handful of Berries,,,,,
+handfulOfBerriesJTDesc,items,Food,"This handful of berries will provide the boost you are looking for out there.",,,,,

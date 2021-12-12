@@ -1,0 +1,16 @@
+<JaxTeller718>
+	<set xpath="/recipes/recipe[@name='drinkJarCoffee']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarBlackStrapCoffee']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGoldenRodTea']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarRedTea']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarYuccaJuice']/@craft_area">coffeemakerJT</set>
+	<setattribute xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']" name="craft_area">coffeemakerJT</setattribute>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarCoffee']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarBlackStrapCoffee']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarGoldenRodTea']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarRedTea']/@craft_tool"/>
+</JaxTeller718>

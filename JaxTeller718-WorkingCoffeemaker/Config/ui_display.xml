@@ -1,0 +1,10 @@
+<JaxTeller718>
+	<append xpath="/ui_display_info/crafting_category_display">
+		<crafting_category_list display_type="coffeeMakerJT">
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink"/>
+		</crafting_category_list>
+		<crafting_category_list display_type="coffeeMakerCommercialJT">
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink"/>
+		</crafting_category_list>
+	</append>
+</JaxTeller718>

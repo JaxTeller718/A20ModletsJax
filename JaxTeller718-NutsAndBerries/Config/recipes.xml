@@ -1,0 +1,10 @@
+<JaxTeller718>
+	<append xpath="/recipes">
+		<recipe name="handfulOfNutsJT" count="1" craft_time="10">
+			<ingredient name="survivalNutsJT" count="5"/>
+		</recipe>
+		<recipe name="handfulOfBerriesJT" count="1" craft_time="10">
+			<ingredient name="survivalBerriesJT" count="5"/>
+		</recipe>
+	</append>
+</JaxTeller718>

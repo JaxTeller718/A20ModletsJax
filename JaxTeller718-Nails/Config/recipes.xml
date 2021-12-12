@@ -1,0 +1,23 @@
+<JaxTeller718>
+
+	<append xpath="/recipes/recipe[
+starts-with(@name, 'wood')
+or (contains(@name, 'whitePicketFenceSheet'))
+or (contains(@name, 'cntCabinetBottom'))
+or (contains(@name, 'cntCupboardCabinetRedTopClosed'))
+or (contains(@name, 'cntWoodDesk01Closed'))
+or (contains(@name, 'cntSecureStorageChest'))
+or (contains(@name, 'secureDoorWooden'))
+or (contains(@name, 'endTable'))
+or (contains(@name, 'ladderWood'))
+or (contains(@name, 'window03Wood'))
+and not(contains(@name, 'woodChair1'))
+and not(contains(@name, 'woodTable'))
+and not(contains(@name, 'woodFrame'))
+		
+]">
+		<ingredient name="resourceNail" count="2"/>
+	</append>
+
+	<remove xpath="/recipes/recipe[@name='secureDoorWooden']/ingredient[@name='resourceNail']"/>
+</JaxTeller718>

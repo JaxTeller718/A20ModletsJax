@@ -1,0 +1,46 @@
+<JaxTeller718>
+
+	<append xpath="/blocks/block
+[
+@name='woodWeakNoUpgradeMaster'
+or @name='woodNoUpgradeMaster'
+or @name='whitePicketFenceSheet'
+or @name='cntCabinetBottom'
+or @name='cntCupboardCabinetRedTopClosed'
+or @name='cntWoodDesk01Closed'
+or @name='cntSecureStorageChest'
+or @name='endTable'
+or @name='ladderWood'
+or @name='window03Wood'
+or @name='secureDoorWooden'
+or @name='houseFrontDoor1_v1'
+or @name='houseFrontDoor2_v1'
+]">
+		<drop event="Harvest" name="resourceNail" count="1,2" tag="allHarvest"/>
+	</append>
+	<append xpath="/blocks/block
+[
+@name='woodWeakNoUpgradeMaster'
+or @name='woodNoUpgradeMaster'
+or @name='rWoodMaster'
+or @name='whitePicketFenceSheet'
+or @name='cntCabinetBottom'
+or @name='cntCupboardCabinetRedTopClosed'
+or @name='cntWoodDesk01Closed'
+or @name='cntSecureStorageChest'
+or @name='endTable'
+or @name='ladderWood'
+or @name='window03Wood'
+or @name='secureDoorWooden'
+or @name='houseFrontDoor1_v1'
+or @name='houseFrontDoor2_v1'
+]
+/property
+[
+@class='RepairItems'
+]">
+		<property name="resourceNail" value="2"/>
+	</append>
+
+
+</JaxTeller718>

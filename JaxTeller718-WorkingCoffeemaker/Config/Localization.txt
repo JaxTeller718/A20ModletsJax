@@ -1,0 +1,5 @@
+﻿Key,Source,Context,English
+coffeeMakerJT,blocks,Block,Coffee Maker (Powered)
+coffeeMakerJTDesc,blocks,Block,"This coffee maker can be placed in your home and used to make coffee and tea."
+coffeeMakerCommercialJT,blocks,Block,Commercial Coffee Maker (Powered)
+coffeeMakerCommercialJTDesc,blocks,Block,"This coffee maker can be placed in your home and used to make coffee and tea."
