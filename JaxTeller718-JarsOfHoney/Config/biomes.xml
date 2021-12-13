@@ -1,0 +1,27 @@
+<JaxTeller718>
+
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+	
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
+
+	<set xpath="/worldgeneration/biomes/biome[@name='snow']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
+	
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
+
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
+
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>	
+
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+	
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.392']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.412']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome[@prob='0.442']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+
+	<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations/decoration[@type='block' and @blockname='treeStump']/@prob">0.0007</set>
+
+</JaxTeller718>

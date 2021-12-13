@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-JarsOfHoney" />
+		<Description value="Sets honey to 10 percent infection cure and raises probability of finding honey in stumps." />
+		<Author value="JaxTeller718"/>
+		<Version value="A20" />
+		<Website value="https://ravenhearst.enjin.com/" />
+	</ModInfo>
+</xml>
