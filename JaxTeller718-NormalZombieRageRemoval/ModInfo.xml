@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-NormalZombieRageRemoval" />
+		<Description value="Removes Rage from normal zombies but keeps it on ferals and radiated." />
+		<Author value="JaxTeller718"/>
+		<Version value="A20" />
+		<Website value="https://ravenhearst.enjin.com/" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,32 @@
+﻿<JaxTeller718>
+
+
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBoe']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieJoe']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMoe']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieArlene']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLab']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamer']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDarlene']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMarlene']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieYo']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSteve']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBusinessMan']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLumberjack']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSpider']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBurnt']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieNurse']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldier']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTomClark']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirl']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieJanitor']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>	
+
+</JaxTeller718>
