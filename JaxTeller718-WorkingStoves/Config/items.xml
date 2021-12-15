@@ -1,6 +1,6 @@
 <JaxTeller718>
 
-	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,grillKitJT,woodStoveKit,JTstoveKitJT</append>
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,grillKitJT,woodStoveKitJT,stoveKitJT</append>
 
 
 
