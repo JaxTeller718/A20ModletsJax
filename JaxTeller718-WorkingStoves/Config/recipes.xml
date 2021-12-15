@@ -1,0 +1,21 @@
+<JaxTeller718>
+	<append xpath="/recipes" >
+
+		<recipe name="stoveKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceMechanicalParts" count="5"/> 
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceElectricParts" count="7"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>
+		<recipe name="grillKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceCoal" count="15"/> 
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>
+		<recipe name="woodStoveKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceCoal" count="25"/> 
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>
+
+	</append>
+</JaxTeller718>

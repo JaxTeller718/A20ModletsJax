@@ -1,0 +1,266 @@
+<JaxTeller718>
+
+	<insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingStoveOldJT"/>
+			<property name="Item" value="stoveKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
+	
+	<insertAfter xpath="/blocks/block[@name='cntStoveModernVer2Open']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingStoveModernJT"/>
+			<property name="Item" value="stoveKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingGasGrillClosedJT"/>
+			<property name="Item" value="grillKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntCharcoalGrillOpen']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingCharcoalGrillClosedJT"/>
+			<property name="Item" value="grillKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntWoodBurningStove']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingWoodBurningStoveJT"/>
+			<property name="Item" value="woodStoveKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
+
+	<append xpath="/blocks" >
+		<block name="workingStoveOldJT">
+			<property name="Class" value="Campfire"/>
+			<property name="CustomIcon" value="cntStoveOldVer1Closed"/>
+			<property name="MaxDamage" value="800"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?stoveElectricRetro_01Prefab.prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="oven"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="4"/>
+				<property name="resourceElectricParts" value="4"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="5,15" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="workingStoveDesc"/>
+	<property name="EconomicValue" value="156"/>
+	<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
+		</block>
+		
+		<block name="workingStoveModernJT">
+			<property name="Class" value="Campfire"/>
+			<property name="CustomIcon" value="cntStoveModernVer1Closed"/>
+			<property name="MaxDamage" value="800"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?stoveElectricModern_01Prefab.prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="oven"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="4"/>
+				<property name="resourceElectricParts" value="4"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="5,15" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="workingStoveDesc"/>
+	<property name="EconomicValue" value="156"/>
+	<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
+		</block>
+
+<block name="workingWoodBurningStoveJT">
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="Model" value="Entities/Furniture/woodBurningStovePrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		<property name="resourceCoal" value="10"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceCoal" count="5" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5"/>
+	<property name="FilterTags" value="MC_building,SC_decor"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="Class" value="Campfire"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+</block>
+	
+<block name="workingCharcoalGrillClosedJT">
+	<property name="Extends" value="cntCharcoalGrillOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?Grill_Simple_ClosedPrefab.prefab"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="Class" value="Campfire"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+</block>
+
+<block name="workingGasGrillClosedJT">
+	<property name="Extends" value="cntGasGrillOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?GasGrill_FullPrefab.prefab"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="Class" value="Campfire"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+</block>
+
+	<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen']/property[@name='Model']" >
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="Class" value="Campfire"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+	</insertAfter>
+
+
+	
+	</append>
+</JaxTeller718>

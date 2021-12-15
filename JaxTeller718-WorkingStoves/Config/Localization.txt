@@ -1,0 +1,17 @@
+﻿Key,Source,Context,English
+stoveKitJT,items,Item,Stove Repair Kit
+stoveKitJTDesc,items,Item,"This stove repair kit is used with a hammer to take a broken stove or grill and make it a working one that you can use."
+grillKitJT,items,Item,Grill Repair Kit
+grillKitJTDesc,items,Item,"This stove repair kit is used with a hammer to take a broken stove or grill and make it a working one that you can use."
+woodStoveKitJT,items,Item,Wood Stove Repair Kit
+woodStoveKitJTDesc,items,Item,"This stove repair kit is used with a hammer to take a broken stove or grill and make it a working one that you can use."
+workingStoveOldJT,blocks,Working Old Stove
+workingStoveOldJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingStoveModernJT,blocks,Working Modern Stove
+workingStoveModernJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingGasGrillClosedJT,blocks,Working Gas Grill
+workingGasGrillClosedJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingCharcoalGrillClosedJT,blocks,Working Charcoal Grill
+workingCharcoalGrillClosedJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+cntWoodBurningStove,blocks,Working Wood Burning Stove
+cntWoodBurningStoveDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."

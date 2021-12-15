@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-WorkingStoves" />
+		<Description value="Adds a stove upgrade kit so you can use world stoves to cook" />
+		<Author value="JaxTeller718" />
+		<Version value="A20" />
+		<Website value="https://ravenhearst.enjin.com/" />
+	</ModInfo>
+</xml>

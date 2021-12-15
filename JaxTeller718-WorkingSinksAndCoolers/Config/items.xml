@@ -1,0 +1,114 @@
+<JaxTeller718>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,waterCoolerKitJT,sinkKitJT</append>
+
+	<remove xpath="/items/item[@name='drinkJarEmpty']"/>
+	<remove xpath="/items/item[@name='bucketEmpty']"/>
+
+	<append xpath="/items">
+		<item name="drinkJarEmpty">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="125"/>
+			<!-- STK resource -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientTime" value="9"/>
+			<property class="Action0">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem" />
+				<property name="Delay" value="1.0" />
+				<property name="Change_item_to" value="drinkJarRiverWater" />
+				<property name="Focused_blockname_1" value="workingGraniteSinkJT" />
+				<property name="Focused_blockname_2" value="workingCabinetOldSinkJT" />
+				<property name="Focused_blockname_3" value="workingWaterCoolerFullJT" />
+				<property name="Sound_start" value="bucketfill_water" />
+			</property>
+			<property class="Action1">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem" />
+				<property name="Delay" value="1.0" />
+				<property name="Change_item_to" value="drinkJarRiverWater" />
+				<property name="Do_block_action" value="deplete1" />
+				<property name="Focused_blockname_1" value="water" />
+				<property name="Focused_blockname_2" value="waterMoving" />
+				<property name="Focused_blockname_3" value="waterStaticBucket" />
+				<property name="Focused_blockname_4" value="waterMovingBucket" />
+				<property name="Focused_blockname_5" value="terrWaterPOI" />
+				<property name="Sound_start" value="bucketfill_water" />
+			</property>
+			<property name="Group" value="Resources" />
+		</item>
+
+		<item name="bucketEmpty">
+			<property name="HoldType" value="34"/>
+			<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucket.fbx"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="84"/>
+			<property class="Action0">
+				<property name="Class" value="BailLiquid"/>
+				<property name="Delay" value=".35"/>
+				<property name="Sound_start" value="bucketbail_water"/>
+			</property>
+			<property class="Action1">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem"/>
+				<property name="Delay" value=".35"/>
+				<property name="Change_item_to" value="bucketRiverWater"/>
+				<property name="Do_block_action" value="deplete3"/>
+				<property name="Focused_blockname_1" value="water"/>
+				<property name="Focused_blockname_2" value="waterMoving"/>
+				<property name="Focused_blockname_3" value="waterStaticBucket"/>
+				<property name="Focused_blockname_4" value="waterMovingBucket"/>
+				<property name="Focused_blockname_5" value="terrWaterPOI"/>
+				<property name="Focused_blockname_6" value="workingGraniteSinkJT"/>
+				<property name="Focused_blockname_7" value="workingCabinetOldSinkJT"/>
+				<property name="Focused_blockname_8" value="workingWaterCoolerFullJT" />
+				<property name="Sound_start" value="bucketfill_water"/>
+			</property>
+			<property name="Group" value="Tools/Traps"/>
+		</item>
+
+	</append>
+
+	<append xpath="/items">	
+
+		<item name="sinkKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="waterCoolerKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="ffb0b0"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	</append>
+
+</JaxTeller718>
