@@ -1,0 +1,151 @@
+<JaxTeller718>
+	<append xpath="/quests">
+		<quest id="skill_SkillBook1">
+			<property name="name_key" value="skill_SkillBook1"/>
+			<property name="subtitle_key" value="skill_SkillBook1_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook1_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="1"/>
+		</quest>
+		<quest id="skill_SkillBook2">
+			<property name="name_key" value="skill_SkillBook2"/>
+			<property name="subtitle_key" value="skill_SkillBook2_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook2_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="2"/>
+		</quest>
+		<quest id="skill_SkillBook5">
+			<property name="name_key" value="skill_SkillBook5"/>
+			<property name="subtitle_key" value="skill_SkillBook5_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook5_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="5"/>
+		</quest>
+		<quest id="skill_SkillBook10">
+			<property name="name_key" value="skill_SkillBook10"/>
+			<property name="subtitle_key" value="skill_SkillBook10_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook10_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="10"/>
+		</quest>
+		<quest id="skill_SkillBook15">
+			<property name="name_key" value="skill_SkillBook15"/>
+			<property name="subtitle_key" value="skill_SkillBook15_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook15_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="15"/>
+		</quest>
+		<quest id="skill_SkillBook25">
+			<property name="name_key" value="skill_SkillBook25"/>
+			<property name="subtitle_key" value="skill_SkillBook25_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook25_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="25"/>
+		</quest>
+		<quest id="skill_SkillBook50">
+			<property name="name_key" value="skill_SkillBook50"/>
+			<property name="subtitle_key" value="skill_SkillBook50_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_SkillBook50_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50"/>
+			<reward type="SkillPoints" value="50"/>
+		</quest>
+		<quest id="skill_ExpBook500">
+			<property name="name_key" value="skill_ExpBook500"/>
+			<property name="subtitle_key" value="skill_ExpBook500_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook500_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="500"/>
+		</quest>
+		<quest id="skill_ExpBook1000">
+			<property name="name_key" value="skill_ExpBook1000"/>
+			<property name="subtitle_key" value="skill_ExpBook1000_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook1000_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="1000"/>
+		</quest>
+		<quest id="skill_ExpBook2000">
+			<property name="name_key" value="skill_ExpBook2000"/>
+			<property name="subtitle_key" value="skill_ExpBook2000_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook2000_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="2000"/>
+		</quest>
+		<quest id="skill_ExpBook5000">
+			<property name="name_key" value="skill_ExpBook5000"/>
+			<property name="subtitle_key" value="skill_ExpBook5000_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook5000_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="5000"/>
+		</quest>
+		<quest id="skill_ExpBook10000">
+			<property name="name_key" value="skill_ExpBook10000"/>
+			<property name="subtitle_key" value="skill_ExpBook10000_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook10000_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="10000"/>
+		</quest>
+		<quest id="skill_ExpBook50000">
+			<property name="name_key" value="skill_ExpBook50000"/>
+			<property name="subtitle_key" value="skill_ExpBook50000_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook50000_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="50000"/>
+		</quest>
+		<quest id="skill_ExpBook500000">
+			<property name="name_key" value="skill_ExpBook500000"/>
+			<property name="subtitle_key" value="skill_ExpBook500000_subtitle"/>
+			<property name="icon" value="ui_game_symbol_skills"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="skill_ExpBook500000_offer"/>
+			<property name="shareable" value="false"/>
+			<reward type="Exp" value="500000"/>
+		</quest>
+	</append>
+</JaxTeller718>

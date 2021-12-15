@@ -1,0 +1,200 @@
+<JaxTeller718>
+	<append xpath="/items">
+		<item name="bookSkillPointsAdmin1JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook1"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookSkillPointsAdmin2JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook2"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookSkillPointsAdmin5JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook5"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookSkillPointsAdmin10JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook10"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookSkillPointsAdmin15JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook15"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookSkillPointsAdmin25JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook25"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookSkillPointsAdmin50JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookSkillPointsDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_SkillBook50"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin500JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook500"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin1000JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook1000"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin2000JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook2000"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin5000JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook5000"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin10000JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook10000"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin50000JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook50000"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+		<item name="bookExperienceAdmin500000JT">
+			<property name="Extends" value="questMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="bookSkillPoints"/>
+			<property name="DescriptionKey" value="bookExperienceDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="600"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="skill_ExpBook500000"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+				<property name="Sound_in_head" value="true"/>
+			</property>
+		</item>
+	</append>
+</JaxTeller718>

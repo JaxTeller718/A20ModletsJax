@@ -1,0 +1,77 @@
+﻿Key,Source,Context,English
+bookSkillPointsAdmin1JT,items,Item,Mod,1 Skill Point Book
+bookSkillPointsDesc,items,Item,Mod,"This book is packed with knowledge. Reading it will give you a skill point to spend as you choose."
+bookExperienceDesc,items,Item,Mod,"This book is packed with knowledge. Reading it will give you experience."
+bookSkillPointsAdmin2JT,items,Item,2 Skill Point Book
+bookSkillPointsAdmin5JT,items,Item,5 Skill Point Book
+bookSkillPointsAdmin10JT,items,Item,10 Skill Point Book
+bookSkillPointsAdmin15JT,items,Item,15 Skill Point Book
+bookSkillPointsAdmin25JT,items,Item,25 Skill Point Book
+bookSkillPointsAdmin50JT,items,Item,50 Skill Point Book
+
+bookExperienceAdmin500JT,items,Item,500 Experience Book
+bookExperienceAdmin1000JT,items,Item,1000 Experience Book
+bookExperienceAdmin2000JT,items,Item,2000 Experience Book
+bookExperienceAdmin5000JT,items,Item,5000 Experience Book
+bookExperienceAdmin10000JT,items,Item,10000 Experience Book
+bookExperienceAdmin50000JT,items,Item,50000 Experience Book
+bookExperienceAdmin500000JT,items,Item,500000 Experience Book
+
+skill_SkillBook1,Quest,Challenge Info,1 Skill Point
+skill_SkillBook1_offer,Quest,Challenge Info,Gain 1 Skill Point.
+skill_SkillBook1_subtitle,Quest,Challenge Info,You have gained 1 Skill Point.
+
+skill_SkillBook2,Quest,Challenge Info,2 Skill Points
+skill_SkillBook2_offer,Quest,Challenge Info,Gain 2 Skill Points.
+skill_SkillBook2_subtitle,Quest,Challenge Info,You have gained 2 Skill Points.
+
+skill_SkillBook5,Quest,Challenge Info,5 Skill Points
+skill_SkillBook5_offer,Quest,Challenge Info,Gain 4 Skill Points.
+skill_SkillBook5_subtitle,Quest,Challenge Info,You have gained 5 Skill Points.
+
+skill_SkillBook10,Quest,Challenge Info,10 Skill Points
+skill_SkillBook10_offer,Quest,Challenge Info,Gain 10 Skill Points.
+skill_SkillBook10_subtitle,Quest,Challenge Info,You have gained 10 Skill Points.
+
+skill_SkillBook15,Quest,Challenge Info,15 Skill Points
+skill_SkillBook15_offer,Quest,Challenge Info,Gain 15 Skill Points.
+skill_SkillBook15_subtitle,Quest,Challenge Info,You have gained 15 Skill Points.
+
+skill_SkillBook25,Quest,Challenge Info,15 Skill Points
+skill_SkillBook25_offer,Quest,Challenge Info,Gain 15 Skill Points.
+skill_SkillBook25_subtitle,Quest,Challenge Info,You have gained 15 Skill Points.
+
+skill_SkillBook50,Quest,Challenge Info,15 Skill Points
+skill_SkillBook50_offer,Quest,Challenge Info,Gain 15 Skill Points.
+skill_SkillBook50_subtitle,Quest,Challenge Info,You have gained 15 Skill Points.
+
+skill_ExpBook500,Quest,Challenge Info,500 Experience
+skill_ExpBook500_offer,Quest,Challenge Info,Gain 500 Experience.
+skill_ExpBook500_subtitle,Quest,Challenge Info,You have gained 500 Experience.
+
+skill_ExpBook1000,Quest,Challenge Info,1000 Experience
+skill_ExpBook1000_offer,Quest,Challenge Info,Gain 1000 Experience.
+skill_ExpBook1000_subtitle,Quest,Challenge Info,You have gained 1000 Experience.
+
+skill_ExpBook2000,Quest,Challenge Info,2000 Experience
+skill_ExpBook2000_offer,Quest,Challenge Info,Gain 2000 Experience.
+skill_ExpBook2000_subtitle,Quest,Challenge Info,You have gained 2000 Experience.
+
+skill_ExpBook5000,Quest,Challenge Info,5000 Experience
+skill_ExpBook5000_offer,Quest,Challenge Info,Gain 5000 Experience.
+skill_ExpBook5000_subtitle,Quest,Challenge Info,You have gained 5000 Experience.
+
+skill_ExpBook10000,Quest,Challenge Info,10000 Experience
+skill_ExpBook10000_offer,Quest,Challenge Info,Gain 10000 Experience.
+skill_ExpBook10000_subtitle,Quest,Challenge Info,You have gained 10000 Experience.
+
+skill_ExpBook50000,Quest,Challenge Info,50000 Experience
+skill_ExpBook50000_offer,Quest,Challenge Info,Gain 50000 Experience.
+skill_ExpBook50000_subtitle,Quest,Challenge Info,You have gained 50000 Experience.
+
+skill_ExpBook500000,Quest,Challenge Info,500000 Experience
+skill_ExpBook500000_offer,Quest,Challenge Info,Gain 500000 Experience.
+skill_ExpBook500000_subtitle,Quest,Challenge Info,You have gained 500000 Experience.
+
+
+
