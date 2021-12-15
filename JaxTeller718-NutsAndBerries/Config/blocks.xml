@@ -1,7 +1,7 @@
 <JaxTeller718>
 	<insertAfter xpath="/blocks/block[@name='treeGrassMaster']/drop[@event='Destroy']">
-		<drop event="Destroy" name="survivalBerriesJT" count="1" prob="0.05"/>
-		<drop event="Destroy" name="survivalNutsJT" count="1" prob="0.05"/>
+		<drop event="Destroy" name="survivalBerriesJT" count="1" prob="0.1"/>
+		<drop event="Destroy" name="survivalNutsJT" count="1" prob="0.1"/>
 	</insertAfter>
 
 </JaxTeller718>
