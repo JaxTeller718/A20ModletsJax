@@ -1,0 +1,86 @@
+<JaxTeller718>
+	<append xpath="/recipes" >
+
+		<recipe name="stoveKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceMechanicalParts" count="5"/> 
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceElectricParts" count="7"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>
+		<recipe name="grillKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceCoal" count="15"/> 
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>
+		<recipe name="woodStoveKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceCoal" count="25"/> 
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>
+
+		<recipe name="foodSoupChickenJT" count="1" craft_area="microwaveJT">
+			<ingredient name="foodCanChicken" count="1"/>
+			<ingredient name="foodCanSoup" count="1"/>
+			<ingredient name="drinkBowlEmptyJT" count="1"/>
+		</recipe>
+
+		<recipe name="foodBowlPastaJT" count="1" craft_area="microwaveJT">
+			<ingredient name="foodCanPasta" count="2"/>
+			<ingredient name="drinkBowlEmptyJT" count="1"/>
+		</recipe>
+
+		<recipe name="foodTunaSandwichJT" count="1" >
+			<ingredient name="foodCanTuna" count="1"/>
+			<ingredient name="foodCornBread" count="2"/>
+		</recipe>
+
+		<recipe name="foodBowlChiliJT" count="1" craft_area="microwaveJT">
+			<ingredient name="foodCanChili" count="2"/>
+			<ingredient name="drinkBowlEmptyJT" count="1"/>
+		</recipe>
+
+		<recipe name="foodBeefStewJT" count="1" craft_area="microwaveJT">
+			<ingredient name="foodCanStock" count="1"/>
+			<ingredient name="foodCanBeef" count="1"/>
+			<ingredient name="drinkBowlEmptyJT" count="1"/>
+		</recipe>
+
+		<recipe name="foodLambSoupJT" count="1" craft_area="microwaveJT">
+			<ingredient name="foodCanLamb" count="1"/>
+			<ingredient name="foodCanSoup" count="1"/>
+			<ingredient name="drinkBowlEmptyJT" count="1"/>
+		</recipe>
+		
+		<recipe name="sinkKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceMechanicalParts" count="5"/> 
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="4"/>
+		</recipe>
+		<recipe name="waterCoolerKitJT" count="1" craft_time="20"> 
+			<ingredient name="resourceMechanicalParts" count="5"/> 
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceMetalPipe" count="4"/>
+		</recipe>
+		
+		
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='drinkJarCoffee']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarBlackStrapCoffee']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGoldenRodTea']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarRedTea']/@craft_area">coffeemakerJT</set>
+	<set xpath="/recipes/recipe[@name='drinkJarYuccaJuice']/@craft_area">coffeemakerJT</set>
+	<setattribute xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']" name="craft_area">coffeemakerJT</setattribute>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarCoffee']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarBlackStrapCoffee']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarGoldenRodTea']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/@craft_tool"/>
+	<removeattribute xpath="/recipes/recipe[@name='drinkJarRedTea']/@craft_tool"/>
+	
+	
+	
+	
+	
+</JaxTeller718>

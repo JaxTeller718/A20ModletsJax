@@ -1,0 +1,358 @@
+<JaxTeller718>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,grillKitJT,woodStoveKitJT,stoveKitJT</append>
+
+
+
+	<append xpath="/items">	
+
+		<item name="stoveKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="210,0,210"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="grillKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="a0a0ff"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="woodStoveKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="172,33,50"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		<item name="drinkBowlEmptyJT">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="125"/>
+			<!-- STK resource -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientTime" value="9"/>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		<item name="foodSoupChickenJT">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="foodWater"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK food -->
+			<property name="EconomicValue" value="102"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="21"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+			</effect_group>
+		</item>
+
+		<item name="foodBowlPastaJT">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="foodWater"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK food -->
+			<property name="EconomicValue" value="102"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="32"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="16"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+			</effect_group>
+		</item>
+
+		<item name="foodBowlChiliJT">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="foodWater"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK food -->
+			<property name="EconomicValue" value="102"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="34"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="16"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+			</effect_group>
+		</item>
+
+		<item name="foodBeefStewJT">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="foodWater"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK food -->
+			<property name="EconomicValue" value="102"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="42"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="18"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+			</effect_group>
+		</item>
+
+		<item name="foodLambSoupJT">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="foodWater"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK food -->
+			<property name="EconomicValue" value="102"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_drinking"/>
+				<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="24"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="11"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+			</effect_group>
+		</item>
+
+		<item name="foodTunaSandwichJT">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="food"/>
+			<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<!-- STK food -->
+			<property name="EconomicValue" value="16"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_eating"/>
+				<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="15"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="9"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="4"/>
+				<display_value name="dFoodPoisoningRisk" value=".04"/>
+				<!-- FP cooked -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer' or @name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,waterCoolerKitJT,sinkKitJT</append>
+
+	<remove xpath="/items/item[@name='drinkJarEmpty']"/>
+	<remove xpath="/items/item[@name='bucketEmpty']"/>
+
+	<append xpath="/items">
+		<item name="drinkJarEmpty">
+			<property name="HoldType" value="3"/>
+			<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="125"/>
+			<!-- STK resource -->
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientTime" value="9"/>
+			<property class="Action0">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem" />
+				<property name="Delay" value="1.0" />
+				<property name="Change_item_to" value="drinkJarRiverWater" />
+				<property name="Focused_blockname_1" value="workingGraniteSinkJT" />
+				<property name="Focused_blockname_2" value="workingCabinetOldSinkJT" />
+				<property name="Focused_blockname_3" value="workingWaterCoolerFullJT" />
+				<property name="Sound_start" value="bucketfill_water" />
+			</property>
+			<property class="Action1">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem" />
+				<property name="Delay" value="1.0" />
+				<property name="Change_item_to" value="drinkJarRiverWater" />
+				<property name="Do_block_action" value="deplete1" />
+				<property name="Focused_blockname_1" value="water" />
+				<property name="Focused_blockname_2" value="waterMoving" />
+				<property name="Focused_blockname_3" value="waterStaticBucket" />
+				<property name="Focused_blockname_4" value="waterMovingBucket" />
+				<property name="Focused_blockname_5" value="terrWaterPOI" />
+				<property name="Sound_start" value="bucketfill_water" />
+			</property>
+			<property name="Group" value="Resources" />
+		</item>
+
+		<item name="bucketEmpty">
+			<property name="HoldType" value="34"/>
+			<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucket.fbx"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="84"/>
+			<property class="Action0">
+				<property name="Class" value="BailLiquid"/>
+				<property name="Delay" value=".35"/>
+				<property name="Sound_start" value="bucketbail_water"/>
+			</property>
+			<property class="Action1">
+				<!-- UseAction -->
+				<property name="Class" value="ExchangeItem"/>
+				<property name="Delay" value=".35"/>
+				<property name="Change_item_to" value="bucketRiverWater"/>
+				<property name="Do_block_action" value="deplete3"/>
+				<property name="Focused_blockname_1" value="water"/>
+				<property name="Focused_blockname_2" value="waterMoving"/>
+				<property name="Focused_blockname_3" value="waterStaticBucket"/>
+				<property name="Focused_blockname_4" value="waterMovingBucket"/>
+				<property name="Focused_blockname_5" value="terrWaterPOI"/>
+				<property name="Focused_blockname_6" value="workingGraniteSinkJT"/>
+				<property name="Focused_blockname_7" value="workingCabinetOldSinkJT"/>
+				<property name="Focused_blockname_8" value="workingWaterCoolerFullJT" />
+				<property name="Sound_start" value="bucketfill_water"/>
+			</property>
+			<property name="Group" value="Tools/Traps"/>
+		</item>
+
+	</append>
+
+	<append xpath="/items">	
+
+		<item name="sinkKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="waterCoolerKitJT">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="ffb0b0"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Stacknumber" value="500"/>
+			<!-- STK resource -->
+			<property name="EconomicValue" value="6"/>
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".5"/>
+			<property name="RepairAmount" value="270"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	</append>
+
+</JaxTeller718>

@@ -1,0 +1,49 @@
+﻿Key,Source,Context,English
+stoveKitJT,items,Item,Stove Repair Kit
+stoveKitJTDesc,items,Item,"This stove repair kit is used with a hammer to take a broken stove or grill and make it a working one that you can use."
+grillKitJT,items,Item,Grill Repair Kit
+grillKitJTDesc,items,Item,"This stove repair kit is used with a hammer to take a broken stove or grill and make it a working one that you can use."
+woodStoveKitJT,items,Item,Wood Stove Repair Kit
+woodStoveKitJTDesc,items,Item,"This stove repair kit is used with a hammer to take a broken stove or grill and make it a working one that you can use."
+workingStoveOldJT,blocks,Working Old Stove
+workingStoveOldJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingStoveModernJT,blocks,Working Modern Stove
+workingStoveModernJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingGasGrillClosedJT,blocks,Working Gas Grill
+workingGasGrillClosedJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingCharcoalGrillClosedJT,blocks,Working Charcoal Grill
+workingCharcoalGrillClosedJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+cntWoodBurningStove,blocks,Working Wood Burning Stove
+cntWoodBurningStoveDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+coffeeMakerJT,blocks,Block,Coffee Maker (Powered)
+coffeeMakerJTDesc,blocks,Block,"This coffee maker can be placed in your home and used to make coffee and tea."
+coffeeMakerCommercialJT,blocks,Block,Commercial Coffee Maker (Powered)
+coffeeMakerCommercialJTDesc,blocks,Block,"This coffee maker can be placed in your home and used to make coffee and tea."
+workingMicrowaveJT,blocks,Block,Microwave (Powered)
+workingMicrowaveJTDesc,blocks,Block,"This microwave is powered already and can be used to heat up bowls of canned food to gain the maximum benefits from them."
+drinkBowlEmptyJT,items,Item,Bowl (Empty)
+drinkBowlEmptyJTDesc,items,Item,Use this empty bowl to heat up foods in the microwave.
+foodSoupChickenJT,items,Food,Bowl of Chicken Soup
+foodSoupChickenJTDesc,items,Food,Using your saved canned food with bowls in the microwave can give you additional benefits. Nothing beats a warm bowl of food.
+foodBowlPastaJT,items,Food,Bowl of Pasta
+foodBowlPastaJTDesc,items,Food,Using your saved canned food with bowls in the microwave can give you additional benefits. Nothing beats a warm bowl of food.
+foodBowlChiliJT,items,Food,Bowl of Chili
+foodBowlChiliJTDesc,items,Food,Using your saved canned food with bowls in the microwave can give you additional benefits. Nothing beats a warm bowl of food.
+foodBeefStewJT,items,Food,Bowl of Beef Stew
+foodBeefStewJTDesc,items,Food,Using your saved canned food with bowls in the microwave can give you additional benefits. Nothing beats a warm bowl of food.
+foodLambSoupJT,items,Food,Bowl of Lamb Soup
+foodLambSoupJTDesc,items,Food,Using your saved canned food with bowls in the microwave can give you additional benefits. Nothing beats a warm bowl of food.
+foodTunaSandwichJT,items,Food,Tuna Sandwich
+foodTunaSandwichJTDesc,items,Food,Making a delicious tuna sandwich will give you some extra benefits.
+microwaveTipJT,Journal,EnChanged,The microwave can be placed and used to heat canned food recipes. Canned food recipes offer slightly more benefits to them than if you eat them in singles so save those cans when you can. Bowls can be found in loot and are used with the canned foods.,,
+microwaveTipJT_title,Journal,KeyTrunk,Microwave
+sinkKitJT,items,Item,Sink Repair Kit
+sinkKitJTDesc,items,Item,"This sink repair kit is used with a hammer to take a broken sink and make it a working one that you can use to fill jars."
+waterCoolerKitJT,items,Item,Water Cooler Repair Kit
+waterCoolerKitJTDesc,items,Item,"This sink repair kit is used with a hammer to take a broken sink and make it a working one that you can use to fill jars."
+workingGraniteSinkJT,blocks,Block,Working Granite Sink
+workingGraniteSinkJTDesc,blocks,Block,"A working sink can be used to fill jars and buckets."
+workingCabinetOldSinkJT,blocks,Block,Working Old Sink
+workingCabinetOldSinkJTDesc,blocks,Block,"A working sink can be used to fill jars and buckets."
+workingWaterCoolerFullJT,blocks,Block,Working Water Cooler
+workingWaterCoolerFullJTDesc,blocks,Block,"A working cooler can be used to fill jars."

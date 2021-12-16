@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="JaxTeller718-WorkingDevices" />
+		<Description value="Combines Working Stove, Sink, Coffeemaker and Microwave Modlets in one" />
+		<Author value="JaxTeller718" />
+		<Version value="A20" />
+		<Website value="https://ravenhearst.enjin.com/" />
+	</ModInfo>
+</xml>

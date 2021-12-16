@@ -234,6 +234,9 @@
 			<property name="WorkstationWindow" value="workstation_campfire"/>
 </block>
 
+	</append>
+
+
 	<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen']/property[@name='Model']" >
 			<property name="ParticleName" value="campfire"/>
 			<property name="ParticleOffset" value="0.5,0,0.5"/>
@@ -262,5 +265,4 @@
 
 
 	
-	</append>
 </JaxTeller718>
