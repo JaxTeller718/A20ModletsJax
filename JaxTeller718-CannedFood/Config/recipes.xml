@@ -1,0 +1,78 @@
+<JaxTeller718>
+
+	<append xpath="/recipes">
+		
+		<recipe name="foodCanCatfood" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanDogfood" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodRawMeat" count="1"/>			
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanChili" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanTuna" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanPasta" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanSalmon" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanMiso" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="foodRawMeat" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanPeas" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodCropPotato" count="5"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanPears" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+		<recipe name="foodCanSoup" count="1" craft_time="30" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+	
+	</append>
+
+</JaxTeller718>
+

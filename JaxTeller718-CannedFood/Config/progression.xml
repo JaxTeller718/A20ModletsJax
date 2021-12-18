@@ -1,0 +1,9 @@
+<JaxTeller718>
+
+
+<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group">
+	<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="foodCanCatfood,foodCanDogfood,foodCanChili,foodCanTuna,foodCanPasta,foodCanSalmon,foodCanMiso,foodCanPeas,foodCanPears,foodCanSoup"/>
+</append>
+
+
+</JaxTeller718>
