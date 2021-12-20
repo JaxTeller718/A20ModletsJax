@@ -16,6 +16,23 @@
 			<ingredient name="resourceWood" count="15"/>
 			<ingredient name="resourceForgedIron" count="7"/>
 		</recipe>
+		<recipe name="workingStoveOldJT" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="15"/> 
+			<ingredient name="resourceForgedIron" count="50"/>
+			<ingredient name="resourceElectricParts" count="14"/>
+			<ingredient name="resourceMetalPipe" count="6"/>
+		</recipe>
+		<recipe name="workingStoveModernJT" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="15"/> 
+			<ingredient name="resourceForgedIron" count="50"/>
+			<ingredient name="resourceElectricParts" count="14"/>
+			<ingredient name="resourceMetalPipe" count="6"/>
+		</recipe>
+		<recipe name="workingCharcoalGrillClosedJT" count="1" craft_time="60" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCoal" count="15"/> 
+			<ingredient name="resourceForgedIron" count="7"/>
+			<ingredient name="resourceMetalPipe" count="4"/>
+		</recipe>
 
 		<recipe name="foodSoupChickenJT" count="1" craft_area="microwaveJT">
 			<ingredient name="foodCanChicken" count="1"/>

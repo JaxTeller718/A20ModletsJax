@@ -270,6 +270,8 @@
 				<property name="Focused_blockname_1" value="workingGraniteSinkJT" />
 				<property name="Focused_blockname_2" value="workingCabinetOldSinkJT" />
 				<property name="Focused_blockname_3" value="workingWaterCoolerFullJT" />
+				<property name="Focused_blockname_3" value="workingUtilitySinkJT" />
+				<property name="Focused_blockname_3" value="workingPedestalSinkJT" />
 				<property name="Sound_start" value="bucketfill_water" />
 			</property>
 			<property class="Action1">
@@ -314,6 +316,7 @@
 				<property name="Focused_blockname_6" value="workingGraniteSinkJT"/>
 				<property name="Focused_blockname_7" value="workingCabinetOldSinkJT"/>
 				<property name="Focused_blockname_8" value="workingWaterCoolerFullJT" />
+				<property name="Focused_blockname_9" value="workingUtilitySinkJT" />
 				<property name="Sound_start" value="bucketfill_water"/>
 			</property>
 			<property name="Group" value="Tools/Traps"/>

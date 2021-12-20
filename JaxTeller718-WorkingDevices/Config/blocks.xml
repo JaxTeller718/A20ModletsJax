@@ -17,6 +17,14 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntWallOven']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingWallOvenJT"/>
+			<property name="Item" value="stoveKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
 	<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen']/property[@name='Model']" >
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="workingGasGrillClosedJT"/>
@@ -52,7 +60,6 @@
 	<property name="Path" value="solid"/>
 	<property name="Model" value="#Entities/LootContainers?stoveElectricRetro_01Prefab.prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
-	<property name="LootList" value="oven"/>
 			<property name="ParticleName" value="campfire"/>
 			<property name="ParticleOffset" value="0.5,0,0.5"/>
 			<property name="Stacknumber" value="1"/>
@@ -89,6 +96,7 @@
 			<property name="DescriptionKey" value="workingStoveDesc"/>
 	<property name="EconomicValue" value="156"/>
 	<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
+	<property name="EconomicValue" value="1000"/>
 		</block>
 		
 		<block name="workingStoveModernJT">
@@ -100,7 +108,6 @@
 	<property name="Path" value="solid"/>
 	<property name="Model" value="#Entities/LootContainers?stoveElectricModern_01Prefab.prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
-	<property name="LootList" value="oven"/>
 			<property name="ParticleName" value="campfire"/>
 			<property name="ParticleOffset" value="0.5,0,0.5"/>
 			<property name="Stacknumber" value="1"/>
@@ -137,7 +144,51 @@
 			<property name="DescriptionKey" value="workingStoveDesc"/>
 	<property name="EconomicValue" value="156"/>
 	<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
+	<property name="EconomicValue" value="1000"/>
 		</block>
+		
+<block name="workingWallOvenJT">
+			<property name="CustomIcon" value="cntWallOven"/>
+			<property name="Class" value="Campfire"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Texture" value="346,345,341,345,345,345"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="3"/>
+			<property name="HeatMapTime" value="600"/>
+			<property name="HeatMapFrequency" value="60"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="campfire"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+			<property name="CraftActionName" value="lblContextActionCook"/>
+			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property name="WorkstationJournalTip" value="campfireTip"/>
+			<property name="WorkstationWindow" value="workstation_campfire"/>
+
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="4"/>
+				<property name="resourceElectricParts" value="4"/>
+			</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="0,1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,10"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
+	<property name="EconomicValue" value="1000"/>
+		</block>
+
 
 <block name="workingWoodBurningStoveJT">
 	<property name="Extends" value="decoEntityMetalMaster"/>
@@ -174,7 +225,8 @@
 			<property name="WorkstationJournalTip" value="campfireTip"/>
 			<property name="Class" value="Campfire"/>
 			<property name="WorkstationWindow" value="workstation_campfire"/>
-</block>
+	<property name="EconomicValue" value="1000"/>
+		</block>
 	
 <block name="workingCharcoalGrillClosedJT">
 	<property name="Extends" value="cntCharcoalGrillOpen"/>
@@ -203,7 +255,8 @@
 			<property name="WorkstationJournalTip" value="campfireTip"/>
 			<property name="Class" value="Campfire"/>
 			<property name="WorkstationWindow" value="workstation_campfire"/>
-</block>
+	<property name="EconomicValue" value="1000"/>
+		</block>
 
 <block name="workingGasGrillClosedJT">
 	<property name="Extends" value="cntGasGrillOpen"/>
@@ -232,13 +285,15 @@
 			<property name="WorkstationJournalTip" value="campfireTip"/>
 			<property name="Class" value="Campfire"/>
 			<property name="WorkstationWindow" value="workstation_campfire"/>
-</block>
+	<property name="EconomicValue" value="1000"/>
+		</block>
 
 	</append>
 
 
 	<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen']/property[@name='Model']" >
 			<property name="ParticleName" value="campfire"/>
+	<property name="EconomicValue" value="1000"/>
 			<property name="ParticleOffset" value="0.5,0,0.5"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="HeatMapStrength" value="3"/>
@@ -464,6 +519,24 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 	</insertAfter>
+	
+	<insertAfter xpath="/blocks/block[@name='utilitySink']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingUtilitySinkJT"/>
+			<property name="Item" value="sinkKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
+	
+	<insertAfter xpath="/blocks/block[@name='pedestalSink']/property[@name='Model']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workingPedestalSinkJT"/>
+			<property name="Item" value="sinkKitJT"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</insertAfter>
 
 	<insertAfter xpath="/blocks/block[@name='cntCabinetOldSink']/property[@name='Model']" >
 		<property class="UpgradeBlock">
@@ -507,6 +580,7 @@
 	<property name="ImposterExchange" value="imposterBlock" param1="116"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="MC_building,SC_loot,SC_residential,SC_plumbing"/>
+	<property name="EconomicValue" value="1000"/>
 		</block>
 
 
@@ -531,7 +605,9 @@
 	<property name="ImposterExchange" value="imposterBlock" param1="43"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="MC_building,SC_loot,SC_residential,SC_plumbing"/>
+	<property name="EconomicValue" value="1000"/>
 		</block>
+		
 <block name="workingWaterCoolerFullJT">
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="StabilitySupport" value="false"/>
@@ -551,7 +627,49 @@
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="FilterTags" value="MC_building,SC_loot"/>
 	<property name="EconomicValue" value="300"/> <!-- disassemble value -->
-</block>
+	<property name="EconomicValue" value="1000"/>
+		</block>
+
+<block name="workingUtilitySinkJT">
+	<property name="Material" value="Mmetal"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plumbing/utility_sinkPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Path" value="solid"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="4" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapBrass" count="1,5" tag="WasteTreasuresSinkHarvest"/>
+	<drop event="Harvest" name="resourceScrapLead" count="1,5" tag="WasteTreasuresSinkHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,10"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="60"/> <!-- disassemble value -->
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="MC_building,SC_loot,SC_plumbing"/>
+	<property name="EconomicValue" value="1000"/>
+		</block>
+
+<!-- NOT_A_SHAPE -->
+<block name="workingPedestalSinkJT">
+	<property name="Extends" value="stoneNoUpgradeMaster" param1="SortOrder1,SortOrder2"/>
+	<property name="Material" value="MstoneFurniture"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Entities/LootContainers?wallHungSinkPrefab.prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Path" value="solid"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="4" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapBrass" count="1,5" tag="WasteTreasuresSinkHarvest"/>
+	<drop event="Harvest" name="resourceScrapLead" count="1,5" tag="WasteTreasuresSinkHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,10"/>
+	<property name="EconomicValue" value="80"/> <!-- disassemble value -->
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="MC_building,SC_loot,SC_plumbing"/>
+	<property name="EconomicValue" value="1000"/>
+		</block>
 	</append>
 	
 </JaxTeller718>

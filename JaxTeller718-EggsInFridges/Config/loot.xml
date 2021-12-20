@@ -9,7 +9,7 @@
 	</insertBefore>
 
 	<append xpath="/lootcontainers/lootgroup[@name='groupRefrigerator01']">
-		<item group="groupColdFridge" loot_prob_template="low"/>
+		<item group="groupColdFridge" loot_prob_template="med"/>
 	</append>
 
 </JaxTeller718>

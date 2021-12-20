@@ -9,6 +9,8 @@ workingStoveOldJT,blocks,Working Old Stove
 workingStoveOldJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
 workingStoveModernJT,blocks,Working Modern Stove
 workingStoveModernJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
+workingWallOvenJT,blocks,Working Wall Oven
+workingWallOvenJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
 workingGasGrillClosedJT,blocks,Working Gas Grill
 workingGasGrillClosedJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
 workingCharcoalGrillClosedJT,blocks,Working Charcoal Grill

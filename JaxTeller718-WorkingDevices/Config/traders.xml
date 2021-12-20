@@ -1,0 +1,20 @@
+<JaxTeller718>
+
+
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']">
+			<item name="workingStoveOldJT"/>
+			<item name="workingStoveModernJT"/>
+			<item name="workingGasGrillClosedJT"/>
+			<item name="workingCharcoalGrillClosedJT"/>
+			<item name="workingWoodBurningStoveJT"/>
+			<item name="workingWallOvenJT"/>
+			<item name="workingGraniteSinkJT"/>
+			<item name="workingUtilitySinkJT"/>
+			<item name="workingPedestalSinkJT"/>
+			<item name="workingCabinetOldSinkJT"/>
+			<item name="workingWaterCoolerFullJT"/>
+	</append>
+
+
+</JaxTeller718>

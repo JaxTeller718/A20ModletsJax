@@ -47,3 +47,9 @@ workingCabinetOldSinkJT,blocks,Block,Working Old Sink
 workingCabinetOldSinkJTDesc,blocks,Block,"A working sink can be used to fill jars and buckets."
 workingWaterCoolerFullJT,blocks,Block,Working Water Cooler
 workingWaterCoolerFullJTDesc,blocks,Block,"A working cooler can be used to fill jars."
+workingUtilitySinkJT,blocks,Block,Working Utility Sink
+workingUtilitySinkJTDesc,blocks,Block,"A working sink can be used to fill jars and buckets."
+workingPedestalSinkJT,blocks,Block,Working Pedestal Sink
+workingPedestalSinkJTDesc,blocks,Block,"A working sink can be used to fill jars and buckets."
+workingWallOvenJT,blocks,Working Wall Oven
+workingWallOvenJTDesc,blocks,"A working stove can be used to cook food and some chemicals in a safe environment."
