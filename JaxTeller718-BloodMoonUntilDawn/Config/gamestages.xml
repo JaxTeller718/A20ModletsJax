@@ -1,0 +1,11 @@
+<JaxTeller718>
+
+	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@num">250</set>
+	
+	<set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage/spawn/@maxAlive">64</set>
+	
+	<append xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage">
+			<spawn group="ZombiesAll" num="999999" maxAlive="64"/>
+	</append>
+	
+</JaxTeller718>
