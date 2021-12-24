@@ -12,4 +12,8 @@
 		<item group="groupColdFridge" loot_prob_template="med"/>
 	</append>
 
+	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']">
+		<item name="foodEgg" loot_prob_template="medLow"/>
+	</append>
+
 </JaxTeller718>
