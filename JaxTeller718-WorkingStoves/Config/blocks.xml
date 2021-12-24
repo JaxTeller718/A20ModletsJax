@@ -17,7 +17,7 @@
 			<property name="UpgradeHitCount" value="4"/>
 		</property>
 	</insertAfter>
-	<insertAfter xpath="/blocks/block[@name='cntWallOven']/property[@name='Model']" >
+	<insertAfter xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']" >
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="workingWallOvenJT"/>
 			<property name="Item" value="stoveKitJT"/>
