@@ -25,7 +25,7 @@
 			<drop event="Destroy" name="resourceScrapIron" count="0"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 			<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
-			<property name="EconomicValue" value="65"/>
+			<property name="EconomicValue" value="297"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="Group" value="Decor/Miscellaneous"/>
 			<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
@@ -53,7 +53,7 @@
 			<drop event="Destroy" name="resourceScrapIron" count="0"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 			<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
-			<property name="EconomicValue" value="85"/>
+			<property name="EconomicValue" value="359"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="Group" value="Decor/Miscellaneous"/>
 			<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
@@ -94,7 +94,7 @@
 			<drop event="Destroy" name="coffeeMakerJT" count="1" prob="0.7"/>
 			<drop event="Destroy" name="resourceScrapIron" count="0"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-			<property name="EconomicValue" value="45"/>
+			<property name="EconomicValue" value="179"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="Group" value="Decor/Miscellaneous"/>
 			<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>
@@ -134,7 +134,7 @@
 			<drop event="Destroy" name="coffeeMakerCommercialJT" count="1" prob="0.7"/>
 			<drop event="Destroy" name="resourceScrapIron" count="0"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-			<property name="EconomicValue" value="75"/>
+			<property name="EconomicValue" value="244"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="Group" value="Decor/Miscellaneous"/>
 			<property name="FilterTags" value="MC_building,SC_loot,SC_electrical"/>

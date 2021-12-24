@@ -28,13 +28,10 @@
 				<property name="resourceScrapIron" value="5"/>
 			</property>
 			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-			<drop event="Harvest" name="resourceMechanicalParts" count="0,1" prob="0.1" tag="salvageHarvest"/>
-			<drop event="Harvest" name="resourceElectricParts" count="1,3" tag="salvageHarvest"/>
-			<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
-			<drop event="Harvest" name="resourceScrapPolymers" count="0,2" tag="salvageHarvest"/>
-			<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
-			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-			<property name="EconomicValue" value="300"/>
+			<drop event="Harvest" name="resourceElectricParts" count="0" tag="salvageHarvest"/>
+			<drop event="Destroy" name="workingMicrowaveJT" count="1" prob="0.7"/>
+			<drop event="Destroy" name="resourceScrapIron" count="0"/>
+			<property name="EconomicValue" value="450"/>
 			<property name="FilterTags" value="floot,ffurniture,fdesign"/>
 			<property name="TakeDelay" value="15"/>
 		</block>
