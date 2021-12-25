@@ -1,0 +1,50 @@
+<JaxTeller718>
+
+	<append xpath="/recipes">
+	
+	    <recipe name="toolEmptyMold" count="1" craft_time="6">
+	        <ingredient name="resourceClayLump" count="6"/>
+	        <ingredient name="drinkJarBoiledWater" count="1"/>
+        </recipe>
+	
+		<recipe name="toolCementMold" count="1" craft_time="12">
+	        <ingredient name="toolEmptyMold" count="1"/>
+	        <ingredient name="resourceCement" count="1"/>
+        </recipe>
+		
+		<recipe name="toolBulletCasingMold" count="1">
+			<ingredient name="toolEmptyMold" count="1"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+		</recipe>
+		
+		<recipe name="toolBulletTipMold" count="1">
+			<ingredient name="toolEmptyMold" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+		</recipe>
+
+		<recipe name="toolNailMold" count="1">
+			<ingredient name="toolEmptyMold" count="1"/>
+			<ingredient name="resourceNail" count="1"/>
+		</recipe>
+		
+		<recipe name="toolPipeMold" count="1">
+			<ingredient name="toolEmptyMold" count="1"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+		</recipe>
+		
+		<recipe name="toolEmptyJarMold" count="1">
+			<ingredient name="toolEmptyMold" count="1"/>
+			<ingredient name="drinkJarEmpty" count="1"/>
+		</recipe>
+
+	</append>
+
+
+	<setattribute xpath="/recipes/recipe[@name='drinkJarEmpty']" name="craft_tool">toolEmptyJarMold</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceMetalPipe' and @craft_area='forge']" name="craft_tool">toolPipeMold</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceNail']" name="craft_tool">toolNailMold</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceBulletTip']" name="craft_tool">toolBulletTipMold</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceBulletCasing']" name="craft_tool">toolBulletCasingMold</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceCement']" name="craft_tool">toolCementMold</setattribute>
+
+</JaxTeller718>

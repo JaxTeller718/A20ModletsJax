@@ -1,0 +1,22 @@
+<JaxTeller718>
+
+
+
+	<set xpath="/windows/window[@name='windowToolsForge']">
+
+		<panel style="header.panel">
+			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true">
+
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true"
+			required_tools="toolBellows,toolAnvil,toolForgeCrucible" required_tools_only="false">
+				    <item_stack controller="RequiredItemStack" name="0"/>
+			</grid>
+		</rect>
+		
+	</set>
+	
+</JaxTeller718>

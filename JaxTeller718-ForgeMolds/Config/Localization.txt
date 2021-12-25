@@ -1,0 +1,11 @@
+﻿Key,Source,Context,English
+toolEmptyMold,items,item,Blank Mold
+toolEmptyMoldDesc,items,item,This blank mold is needed to make the tool with which you will make items in the forge.
+toolCementMold,items,item,Cement Mold
+toolCementMoldDesc,items,item,A tool that can be installed in a forge. It increases the crafting speed of that forge.
+toolBulletCasingMold,items,Item,Bullet Casing Mold,,,,,
+toolBulletTipMold,items,Item,Bullet Tip Mold,,,,,
+toolNailMold,items,Item,Nail Mold,,,,,
+toolScrewsMold,items,Item,Screw Mold,,,,,
+toolPipeMold,items,Item,Pipe Mold,,,,,
+toolEmptyJarMold,items,Item,Empty Jar Mold,,,,,
