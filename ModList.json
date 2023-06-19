@@ -38,6 +38,20 @@
     ]
   },
   {
+    "Name": "Shit Terrain Blocks",
+    "Description": "Terrain blocks like sand and dirt will be flattened when placing blocks next to them. This removes the odd gap between terrain and building blocks.",
+    "Mods": [
+      {
+        "Version": "v1.0.0",
+        "Link": "https://github.com/BLUDRAG/ReachGamingModsVault/blob/77d9b0617eb48a33e62a03633f863675a4e59831/FlushTerrainBlocks.zip?raw=true"
+      },
+      {
+        "Version": "v1.1.0",
+        "Link": "https://github.com/BLUDRAG/ReachGamingModsVault/blob/f06c4631e05423de0548eb75a38fbaff0ef878b0/FlushTerrainBlocks.zip?raw=true"
+      }
+    ]
+  },
+  {
     "Name": "Flush Terrain Blocks",
     "Description": "Terrain blocks like sand and dirt will be flattened when placing blocks next to them. This removes the odd gap between terrain and building blocks.",
     "Mods": [
