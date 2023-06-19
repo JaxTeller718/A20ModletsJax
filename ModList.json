@@ -38,16 +38,16 @@
     ]
   },
   {
-    "Name": "Shit Terrain Blocks",
-    "Description": "Terrain blocks like sand and dirt will be flattened when placing blocks next to them. This removes the odd gap between terrain and building blocks.",
+    "Name": "Reach Builder Tools",
+    "Description": "Adds new terrain manipulating tools. A builder's dream! All tools can be found by search for ReachBuilder in the creative menu.",
     "Mods": [
       {
         "Version": "v1.0.0",
-        "Link": "https://github.com/BLUDRAG/ReachGamingModsVault/blob/77d9b0617eb48a33e62a03633f863675a4e59831/FlushTerrainBlocks.zip?raw=true"
+        "Link": "https://github.com/BLUDRAG/ReachGamingModsVault/blob/2e0e4f10ab4fda6966c6e3e8d805b6458a747e40/ReachBuilderTools.zip?raw=true"
       },
       {
         "Version": "v1.1.0",
-        "Link": "https://github.com/BLUDRAG/ReachGamingModsVault/blob/f06c4631e05423de0548eb75a38fbaff0ef878b0/FlushTerrainBlocks.zip?raw=true"
+        "Link": "https://github.com/BLUDRAG/ReachGamingModsVault/blob/c52d5abea619a285b069870d8f1627169419cdac/ReachBuilderTools.zip?raw=true"
       }
     ]
   },
